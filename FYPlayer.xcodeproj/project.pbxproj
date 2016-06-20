@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1865936E1D1777F000A82B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1865936D1D1777F000A82B88 /* main.m */; };
+		186593711D1777F000A82B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186593701D1777F000A82B88 /* AppDelegate.m */; };
+		186593741D1777F000A82B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186593731D1777F000A82B88 /* ViewController.m */; };
+		186593771D1777F000A82B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186593751D1777F000A82B88 /* Main.storyboard */; };
+		186593791D1777F100A82B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186593781D1777F100A82B88 /* Assets.xcassets */; };
+		1865937C1D1777F100A82B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1865937A1D1777F100A82B88 /* LaunchScreen.storyboard */; };
+		186593871D1777F100A82B88 /* FYPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186593861D1777F100A82B88 /* FYPlayerTests.m */; };
+		186593921D1777F100A82B88 /* FYPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186593911D1777F100A82B88 /* FYPlayerUITests.m */; };
+		186593A01D17782B00A82B88 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1865939F1D17782B00A82B88 /* Resources.bundle */; };
+		186593A91D177B6100A82B88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186593A81D177B6100A82B88 /* CoreGraphics.framework */; };
+		186593AB1D177B7700A82B88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186593AA1D177B7700A82B88 /* QuartzCore.framework */; };
+		186593AD1D177B7E00A82B88 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186593AC1D177B7E00A82B88 /* CFNetwork.framework */; };
+		186593AF1D177BC700A82B88 /* song.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 186593AE1D177BC700A82B88 /* song.mp4 */; };
+		186593B31D17892500A82B88 /* FYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 186593B21D17892500A82B88 /* FYPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186593831D1777F100A82B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186593611D1777F000A82B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186593681D1777F000A82B88;
+			remoteInfo = FYPlayer;
+		};
+		1865938E1D1777F100A82B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186593611D1777F000A82B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186593681D1777F000A82B88;
+			remoteInfo = FYPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186593691D1777F000A82B88 /* FYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1865936D1D1777F000A82B88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1865936F1D1777F000A82B88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		186593701D1777F000A82B88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		186593721D1777F000A82B88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		186593731D1777F000A82B88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		186593761D1777F000A82B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186593781D1777F100A82B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1865937B1D1777F100A82B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1865937D1D1777F100A82B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186593821D1777F100A82B88 /* FYPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186593861D1777F100A82B88 /* FYPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPlayerTests.m; sourceTree = "<group>"; };
+		186593881D1777F100A82B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1865938D1D1777F100A82B88 /* FYPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186593911D1777F100A82B88 /* FYPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPlayerUITests.m; sourceTree = "<group>"; };
+		186593931D1777F100A82B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1865939F1D17782B00A82B88 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		186593A81D177B6100A82B88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		186593AA1D177B7700A82B88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		186593AC1D177B7E00A82B88 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		186593AE1D177BC700A82B88 /* song.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = song.mp4; sourceTree = "<group>"; };
+		186593B11D17892500A82B88 /* FYPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayer.h; sourceTree = "<group>"; };
+		186593B21D17892500A82B88 /* FYPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186593661D1777F000A82B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186593AD1D177B7E00A82B88 /* CFNetwork.framework in Frameworks */,
+				186593AB1D177B7700A82B88 /* QuartzCore.framework in Frameworks */,
+				186593A91D177B6100A82B88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1865937F1D1777F100A82B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1865938A1D1777F100A82B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186593601D1777F000A82B88 = {
+			isa = PBXGroup;
+			children = (
+				186593AC1D177B7E00A82B88 /* CFNetwork.framework */,
+				186593AA1D177B7700A82B88 /* QuartzCore.framework */,
+				186593A81D177B6100A82B88 /* CoreGraphics.framework */,
+				1865936B1D1777F000A82B88 /* FYPlayer */,
+				186593851D1777F100A82B88 /* FYPlayerTests */,
+				186593901D1777F100A82B88 /* FYPlayerUITests */,
+				1865936A1D1777F000A82B88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1865936A1D1777F000A82B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186593691D1777F000A82B88 /* FYPlayer.app */,
+				186593821D1777F100A82B88 /* FYPlayerTests.xctest */,
+				1865938D1D1777F100A82B88 /* FYPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1865936B1D1777F000A82B88 /* FYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				186593B01D177C0600A82B88 /* playerView */,
+				1865936F1D1777F000A82B88 /* AppDelegate.h */,
+				186593701D1777F000A82B88 /* AppDelegate.m */,
+				186593721D1777F000A82B88 /* ViewController.h */,
+				186593731D1777F000A82B88 /* ViewController.m */,
+				186593AE1D177BC700A82B88 /* song.mp4 */,
+				1865939F1D17782B00A82B88 /* Resources.bundle */,
+				186593751D1777F000A82B88 /* Main.storyboard */,
+				186593781D1777F100A82B88 /* Assets.xcassets */,
+				1865937A1D1777F100A82B88 /* LaunchScreen.storyboard */,
+				1865937D1D1777F100A82B88 /* Info.plist */,
+				1865936C1D1777F000A82B88 /* Supporting Files */,
+			);
+			path = FYPlayer;
+			sourceTree = "<group>";
+		};
+		1865936C1D1777F000A82B88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1865936D1D1777F000A82B88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186593851D1777F100A82B88 /* FYPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				186593861D1777F100A82B88 /* FYPlayerTests.m */,
+				186593881D1777F100A82B88 /* Info.plist */,
+			);
+			path = FYPlayerTests;
+			sourceTree = "<group>";
+		};
+		186593901D1777F100A82B88 /* FYPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186593911D1777F100A82B88 /* FYPlayerUITests.m */,
+				186593931D1777F100A82B88 /* Info.plist */,
+			);
+			path = FYPlayerUITests;
+			sourceTree = "<group>";
+		};
+		186593B01D177C0600A82B88 /* playerView */ = {
+			isa = PBXGroup;
+			children = (
+				186593B11D17892500A82B88 /* FYPlayer.h */,
+				186593B21D17892500A82B88 /* FYPlayer.m */,
+			);
+			name = playerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186593681D1777F000A82B88 /* FYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186593961D1777F100A82B88 /* Build configuration list for PBXNativeTarget "FYPlayer" */;
+			buildPhases = (
+				186593651D1777F000A82B88 /* Sources */,
+				186593661D1777F000A82B88 /* Frameworks */,
+				186593671D1777F000A82B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYPlayer;
+			productName = FYPlayer;
+			productReference = 186593691D1777F000A82B88 /* FYPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186593811D1777F100A82B88 /* FYPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186593991D1777F100A82B88 /* Build configuration list for PBXNativeTarget "FYPlayerTests" */;
+			buildPhases = (
+				1865937E1D1777F100A82B88 /* Sources */,
+				1865937F1D1777F100A82B88 /* Frameworks */,
+				186593801D1777F100A82B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186593841D1777F100A82B88 /* PBXTargetDependency */,
+			);
+			name = FYPlayerTests;
+			productName = FYPlayerTests;
+			productReference = 186593821D1777F100A82B88 /* FYPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1865938C1D1777F100A82B88 /* FYPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1865939C1D1777F100A82B88 /* Build configuration list for PBXNativeTarget "FYPlayerUITests" */;
+			buildPhases = (
+				186593891D1777F100A82B88 /* Sources */,
+				1865938A1D1777F100A82B88 /* Frameworks */,
+				1865938B1D1777F100A82B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1865938F1D1777F100A82B88 /* PBXTargetDependency */,
+			);
+			name = FYPlayerUITests;
+			productName = FYPlayerUITests;
+			productReference = 1865938D1D1777F100A82B88 /* FYPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186593611D1777F000A82B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					186593681D1777F000A82B88 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					186593811D1777F100A82B88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 186593681D1777F000A82B88;
+					};
+					1865938C1D1777F100A82B88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 186593681D1777F000A82B88;
+					};
+				};
+			};
+			buildConfigurationList = 186593641D1777F000A82B88 /* Build configuration list for PBXProject "FYPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186593601D1777F000A82B88;
+			productRefGroup = 1865936A1D1777F000A82B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186593681D1777F000A82B88 /* FYPlayer */,
+				186593811D1777F100A82B88 /* FYPlayerTests */,
+				1865938C1D1777F100A82B88 /* FYPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186593671D1777F000A82B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1865937C1D1777F100A82B88 /* LaunchScreen.storyboard in Resources */,
+				186593791D1777F100A82B88 /* Assets.xcassets in Resources */,
+				186593771D1777F000A82B88 /* Main.storyboard in Resources */,
+				186593AF1D177BC700A82B88 /* song.mp4 in Resources */,
+				186593A01D17782B00A82B88 /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186593801D1777F100A82B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1865938B1D1777F100A82B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186593651D1777F000A82B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186593741D1777F000A82B88 /* ViewController.m in Sources */,
+				186593B31D17892500A82B88 /* FYPlayer.m in Sources */,
+				186593711D1777F000A82B88 /* AppDelegate.m in Sources */,
+				1865936E1D1777F000A82B88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1865937E1D1777F100A82B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186593871D1777F100A82B88 /* FYPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186593891D1777F100A82B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186593921D1777F100A82B88 /* FYPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186593841D1777F100A82B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186593681D1777F000A82B88 /* FYPlayer */;
+			targetProxy = 186593831D1777F100A82B88 /* PBXContainerItemProxy */;
+		};
+		1865938F1D1777F100A82B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186593681D1777F000A82B88 /* FYPlayer */;
+			targetProxy = 1865938E1D1777F100A82B88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186593751D1777F000A82B88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186593761D1777F000A82B88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1865937A1D1777F100A82B88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1865937B1D1777F100A82B88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186593941D1777F100A82B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186593951D1777F100A82B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186593971D1777F100A82B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fangfang.FYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		186593981D1777F100A82B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fangfang.FYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1865939A1D1777F100A82B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fangfang.FYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYPlayer.app/FYPlayer";
+			};
+			name = Debug;
+		};
+		1865939B1D1777F100A82B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fangfang.FYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYPlayer.app/FYPlayer";
+			};
+			name = Release;
+		};
+		1865939D1D1777F100A82B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fangfang.FYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYPlayer;
+			};
+			name = Debug;
+		};
+		1865939E1D1777F100A82B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fangfang.FYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186593641D1777F000A82B88 /* Build configuration list for PBXProject "FYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186593941D1777F100A82B88 /* Debug */,
+				186593951D1777F100A82B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186593961D1777F100A82B88 /* Build configuration list for PBXNativeTarget "FYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186593971D1777F100A82B88 /* Debug */,
+				186593981D1777F100A82B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186593991D1777F100A82B88 /* Build configuration list for PBXNativeTarget "FYPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1865939A1D1777F100A82B88 /* Debug */,
+				1865939B1D1777F100A82B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1865939C1D1777F100A82B88 /* Build configuration list for PBXNativeTarget "FYPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1865939D1D1777F100A82B88 /* Debug */,
+				1865939E1D1777F100A82B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186593611D1777F000A82B88 /* Project object */;
+}
